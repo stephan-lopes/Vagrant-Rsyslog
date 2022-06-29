@@ -1,0 +1,7 @@
+---
+- name: Playbook de Instalação e Configuração do Rsyslog
+  hosts: all
+  gather_facts: true
+  become: true
+  roles:
+    - role: stephan_lopes.rsyslog
